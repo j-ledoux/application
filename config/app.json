@@ -1,12 +1,12 @@
 {
   "send_emails"              : false,
-  "application_sender_email" : "email@test.com",
+  "application_sender_email" : "no-reply@thecamp.fr",
   "email_transporter" : {
-    "host" : "localhost",
-    "port" : 25,
+    "host" : "mailcatcher_container",
+    "port" : 1025,
     "auth" : {
-      "user" : "user",
-      "pass" : "pass"
+      "user" : null,
+      "pass" : null
     }
   },
   "crypto_secret" : "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_"

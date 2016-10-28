@@ -1,7 +1,10 @@
 {
   "development": {
-    "dialect": "sqlite",
-    "storage": "./db.development.sqlite"
+    "username": "root",
+    "password": "root",
+    "database": "timeoff",
+    "host": "mysql_container",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
