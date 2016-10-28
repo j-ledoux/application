@@ -1,5 +1,5 @@
 {
-  "send_emails"              : false,
+  "send_emails"              : true,
   "application_sender_email" : "no-reply@thecamp.fr",
   "email_transporter" : {
     "host" : "mailcatcher_container",

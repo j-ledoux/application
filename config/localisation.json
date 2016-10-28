@@ -91,7 +91,6 @@
     },
     "UK" : {
       "name" : "United Kingdom",
-      "default" : 1,
       "bank_holidays" : [
         {
           "name" : "New Year Day",
@@ -157,6 +156,56 @@
         {
           "name" : "Christmas Day",
           "date" : "2016-12-26"
+        }
+      ]
+    },
+    "FR" : {
+      "name" : "France",
+      "default" : 1,
+      "bank_holidays" : [
+        {
+          "name" : "New Year Day / Jour de l'an",
+          "date" : "2016-01-01"
+        },
+        {
+          "name" : "Easter Monday / Lundi de P\u00e2ques",
+          "date" : "2016-03-28"
+        },
+        {
+          "name" : "Labor Day / F\u00eate du Travail",
+          "date" : "2016-05-01"
+        },
+        {
+          "name" : "Jeudi de l'Ascension",
+          "date" : "2016-05-05"
+        },
+        {
+          "name" : "8 Mai 1945",
+          "date" : "2016-05-08"
+        },
+        {
+          "name" : "Lundi de Pentec\u00f4te",
+          "date" : "2016-05-16"
+        },
+        {
+          "name" : "F\u00eate nationale",
+          "date" : "2016-07-14"
+        },
+        {
+          "name" : "Assomption",
+          "date" : "2016-08-15"
+        },
+        {
+          "name" : "La Toussaint",
+          "date" : "2016-11-01"
+        },
+        {
+          "name" : "Armistice",
+          "date" : "2016-11-11"
+        },
+        {
+          "name" : "Christmas Day / No\u00ebl",
+          "date" : "2016-12-25"
         }
       ]
     }
