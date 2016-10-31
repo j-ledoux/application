@@ -4,6 +4,10 @@ Hello {{#with approver }}{{this.full_name}}{{/with}},
 
 {{#with requester}}{{this.full_name}}{{/with}} sent new leave request {{>leave_request_detail leave=leave }}.
 
+{{# if leave.employee_comment }}
+Employee comment: {{leave.employee_comment}}
+{{/if}}
+
 Please visit {{remote_url}}/requests/ to approve or reject outstanding requests.
 
 This message was sent by
