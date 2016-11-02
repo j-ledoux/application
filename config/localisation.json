@@ -164,15 +164,15 @@
       "default" : 1,
       "bank_holidays" : [
         {
-          "name" : "New Year Day / Jour de l'an",
+          "name" : "Jour de l'an",
           "date" : "2016-01-01"
         },
         {
-          "name" : "Easter Monday / Lundi de P\u00e2ques",
+          "name" : "Lundi de P\u00e2ques",
           "date" : "2016-03-28"
         },
         {
-          "name" : "Labor Day / F\u00eate du Travail",
+          "name" : "F\u00eate du Travail",
           "date" : "2016-05-01"
         },
         {
@@ -204,8 +204,52 @@
           "date" : "2016-11-11"
         },
         {
-          "name" : "Christmas Day / No\u00ebl",
+          "name" : "No\u00ebl",
           "date" : "2016-12-25"
+        },
+        {
+          "name" : "Jour de l'an",
+          "date" : "2017-01-01"
+        },
+        {
+          "name" : "Lundi de P\u00e2ques",
+          "date" : "2017-04-17"
+        },
+        {
+          "name" : "F\u00eate du Travail",
+          "date" : "2017-05-01"
+        },
+        {
+          "name" : "Jeudi de l'Ascension",
+          "date" : "2017-05-25"
+        },
+        {
+          "name" : "8 Mai 1945",
+          "date" : "2017-05-08"
+        },
+        {
+          "name" : "Lundi de Pentec\u00f4te",
+          "date" : "2017-05-4"
+        },
+        {
+          "name" : "F\u00eate nationale",
+          "date" : "2017-07-14"
+        },
+        {
+          "name" : "Assomption",
+          "date" : "2017-08-15"
+        },
+        {
+          "name" : "La Toussaint",
+          "date" : "2017-11-01"
+        },
+        {
+          "name" : "Armistice",
+          "date" : "2017-11-11"
+        },
+        {
+          "name" : "No\u00ebl",
+          "date" : "2017-12-25"
         }
       ]
     }
