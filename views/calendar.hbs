@@ -29,8 +29,16 @@
     </dl>
   </div> -->
 
+  <div class="col-md-3 secondary-leave-type-statistics">
+    <dl>
+      <dt>Current accounting year</dt>
+      <dd><em>From:</em><span class="pull-right">{{ accounting_year_start_at }}</span></dd>
+      <dd><em>To:</em><span class="pull-right">{{ accounting_year_end_at }}</span></dd>
+    </dl>
+  </div>
 
-  <div class="col-md-4 secondary-leave-type-statistics">
+
+  <div class="col-md-3 secondary-leave-type-statistics">
     <dl>
       <dt>Used so far</dt>
 
@@ -45,7 +53,7 @@
     </dl>
   </div>
 
-  <div class="col-md-4 secondary-leave-type-statistics">
+  <div class="col-md-3 secondary-leave-type-statistics">
     <dl>
       <dt>Available types</dt>
         {{~# each full_leave_type_statistics ~}}
@@ -54,7 +62,7 @@
     </dl>
   </div>
 
-  <div class="col-md-4 secondary-leave-type-statistics">
+  <div class="col-md-3 secondary-leave-type-statistics">
     <dl>
       <dt>Details</dt>
       <dd><em>Superviser:</em><span class="pull-right"><a href="mailto:{{superviser.email}}">{{# with superviser }}{{ this.full_name }}{{/with}}</a></span></dd>
