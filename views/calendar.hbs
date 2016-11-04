@@ -19,7 +19,7 @@
 
 <div class="row hidden-xs">
 
-  <div class="col-md-3 top-leave-type-statistics">
+  <!-- <div class="col-md-3 top-leave-type-statistics">
     <dl>
       {{#with current_user }}
       <dt>{{ this.calculate_number_of_days_available_in_allowence ../this_year }}</dt>
@@ -27,10 +27,10 @@
       <dd>out of {{this.calculate_total_number_of_days_n_allowence ../this_year}} in Allowance</dd>
       {{/with}}
     </dl>
-  </div>
+  </div> -->
 
 
-  <div class="col-md-3 secondary-leave-type-statistics">
+  <div class="col-md-4 secondary-leave-type-statistics">
     <dl>
       <dt>Used so far</dt>
 
@@ -45,7 +45,7 @@
     </dl>
   </div>
 
-  <div class="col-md-3 secondary-leave-type-statistics">
+  <div class="col-md-4 secondary-leave-type-statistics">
     <dl>
       <dt>Available types</dt>
         {{~# each full_leave_type_statistics ~}}
@@ -54,12 +54,12 @@
     </dl>
   </div>
 
-  <div class="col-md-3 secondary-leave-type-statistics">
+  <div class="col-md-4 secondary-leave-type-statistics">
     <dl>
       <dt>Details</dt>
       <dd><em>Superviser:</em><span class="pull-right"><a href="mailto:{{superviser.email}}">{{# with superviser }}{{ this.full_name }}{{/with}}</a></span></dd>
       <dd><em>Department:</em> <span class="pull-right"><a href="/calendar/teamview/?department={{ current_user.department.id }}">{{ current_user.department.name }}</a></span></dd>
-      <dd><em>Allowance in {{this_year}}:</em><span class="pull-right"> {{#with current_user}}{{ this.calculate_total_number_of_days_n_allowence ../this_year }}{{/with}} days</span><dd>
+      <!-- <dd><em>Allowance in {{this_year}}:</em><span class="pull-right"> {{#with current_user}}{{ this.calculate_total_number_of_days_n_allowence ../this_year }}{{/with}} days</span><dd> -->
     </dl>
   </div>
 
