@@ -1,0 +1,9 @@
+{
+    "database": {
+        "username": "root",
+        "password": "root",
+        "database": "timeoff_test",
+        "host": "mysql_container",
+        "dialect": "mysql"
+    }
+}

@@ -6,7 +6,7 @@ var logger       = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
 var moment       = require('moment');
-var globals      = require('./globals');
+var config       = require('./lib/config');
 
 var app = express();
 
@@ -72,15 +72,15 @@ app.use(passport.session());
 //
 // Make sure session and user objects are available in templates
 app.use(function(req,res,next){
-    res.locals.session     = req.session;
-    res.locals.logged_user = req.user;
+    res.locals.session              = req.session;
+    res.locals.logged_user          = req.user;
     res.locals.url_to_the_site_root = '/';
-    res.locals.app_name = globals.appName;
-    res.locals.remote_url = globals.scheme + globals.domain;
-    res.locals.requested_path = req.originalUrl;
+    res.locals.app_name             = config.get('application_name');
+    res.locals.remote_url           = config.get('scheme') + config.get('domain');
+    res.locals.requested_path       = req.originalUrl;
     // For book leave request modal
-    res.locals.booking_start = moment();
-    res.locals.booking_end = moment();
+    res.locals.booking_start        = moment();
+    res.locals.booking_end          = moment();
     next();
 });
 

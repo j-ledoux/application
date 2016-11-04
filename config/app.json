@@ -9,5 +9,7 @@
       "pass" : null
     }
   },
-  "crypto_secret" : "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_"
+  "crypto_secret" : "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
+  "application_name": "thecamp TimeOff",
+  "default_environment": "development"
 }
