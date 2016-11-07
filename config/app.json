@@ -1,15 +1,16 @@
 {
-  "send_emails"              : true,
-  "application_sender_email" : "no-reply@thecamp.fr",
-  "email_transporter" : {
-    "host" : "mailcatcher_container",
-    "port" : 1025,
-    "auth" : {
-      "user" : null,
-      "pass" : null
+  "send_emails": true,
+  "application_sender_email": "no-reply@thecamp.fr",
+  "email_confirmation_copy_recipents": "valerie@thecamp.fr,isabelle@thecamp.fr",
+  "email_transporter": {
+    "host": "mailcatcher_container",
+    "port": 1025,
+    "auth": {
+      "user": null,
+      "pass": null
     }
   },
-  "crypto_secret" : "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
+  "crypto_secret": "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
   "application_name": "thecamp TimeOff",
   "default_environment": "development"
 }
