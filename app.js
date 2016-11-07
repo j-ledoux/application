@@ -76,7 +76,7 @@ app.use(function(req,res,next){
     res.locals.logged_user          = req.user;
     res.locals.url_to_the_site_root = '/';
     res.locals.app_name             = config.get('application_name');
-    res.locals.remote_url           = config.get('scheme') + config.get('domain');
+    res.locals.remote_url           = String(config.get('scheme')) + String(config.get('domain'));
     res.locals.requested_path       = req.originalUrl;
     // For book leave request modal
     res.locals.booking_start        = moment();
