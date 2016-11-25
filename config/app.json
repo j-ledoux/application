@@ -3,8 +3,8 @@
   "application_sender_email": "no-reply@thecamp.fr",
   "email_confirmation_copy_recipents": "valerie@thecamp.fr,isabelle@thecamp.fr",
   "email_transporter": {
-    "host": "mailcatcher_container",
-    "port": 1025,
+    "host": "mail_container",
+    "port": 25,
     "auth": {
       "user": null,
       "pass": null
