@@ -102,6 +102,15 @@ app.use( require('./lib/middleware/session_aware_redirect') );
 
 // Here will be publicly accessible routes
 
+app.use(function (req, res, next) {
+    if ('/robots.txt' == req.url) {
+        res.type('text/plain')
+        res.send("User-agent: *\nDisallow: /");
+    } else {
+        next();
+    }
+});
+
 app.use(
   '/feed/',
   require('./lib/route/feed')
