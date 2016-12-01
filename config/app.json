@@ -5,6 +5,9 @@
   "email_transporter": {
     "host": "mail_container",
     "port": 25,
+    "tls": {
+        "rejectUnauthorized": false
+    },
     "auth": {
       "user": null,
       "pass": null

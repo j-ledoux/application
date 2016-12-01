@@ -1,6 +1,6 @@
 {
     "database": {
-        "username": "root",
+        "username": "timeoff",
         "password": "root",
         "database": "timeoff",
         "host": "mysql_container",
