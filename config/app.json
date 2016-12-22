@@ -1,4 +1,5 @@
 {
+  "allow_create_new_accounts": false,
   "send_emails": true,
   "application_sender_email": "no-reply@thecamp.fr",
   "email_confirmation_copy_recipents": "valerie@thecamp.fr,isabelle@thecamp.fr",
