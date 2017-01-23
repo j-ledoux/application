@@ -6,12 +6,9 @@
   "email_transporter": {
     "host": "postfix_container",
     "port": 25,
+    "secure": false,
     "tls": {
         "rejectUnauthorized": false
-    },
-    "auth": {
-      "user": null,
-      "pass": null
     }
   },
   "crypto_secret": "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
