@@ -4,13 +4,13 @@
   "application_sender_email": "no-reply@thecamp.fr",
   "email_confirmation_copy_recipents": "valerie@thecamp.fr,isabelle@thecamp.fr",
   "email_transporter": {
-    "host": "ssl0.ovh.net",
-    "port": 587,
+    "host": "postfix_container",
+    "port": 25,
     "tls": {
         "rejectUnauthorized": false
     },
     "auth": {
-      "user": "thecamp@thecampfactory.fr",
+      "user": null,
       "pass": null
     }
   },
