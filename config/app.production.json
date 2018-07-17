@@ -1,4 +1,12 @@
 {
   "domain": "timeoff.thecamp.fr",
-  "scheme": "http://"
+  "scheme": "https://",
+  "email_transporter": {
+    "host": "tcecssmtp.thecamp.fr",
+    "port": 2525,
+    "secure": false,
+    "tls": {
+        "rejectUnauthorized": false
+    }
+  }
 }

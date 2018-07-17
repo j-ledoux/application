@@ -3,14 +3,6 @@
   "send_emails": true,
   "application_sender_email": "no-reply@thecamp.fr",
   "email_confirmation_copy_recipents": "valerie@thecamp.fr,isabelle@thecamp.fr",
-  "email_transporter": {
-    "host": "postfix_container",
-    "port": 25,
-    "secure": false,
-    "tls": {
-        "rejectUnauthorized": false
-    }
-  },
   "crypto_secret": "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
   "application_name": "thecamp TimeOff",
   "default_environment": "production"

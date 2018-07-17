@@ -1,4 +1,12 @@
 {
-  "domain": "thecamptimeoff.dev",
-  "scheme": "http://"
+  "domain": "timeoff.thecamp.loc",
+  "scheme": "http://",
+  "email_transporter": {
+    "host": "mailcatcher.thecamp.loc",
+    "port": 25,
+    "secure": false,
+    "tls": {
+        "rejectUnauthorized": false
+    }
+  }
 }

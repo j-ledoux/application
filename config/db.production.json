@@ -1,9 +1,9 @@
 {
     "database": {
-        "username": "timeoff",
-        "password": "root",
+        "username": "*",
+        "password": "*",
         "database": "timeoff",
-        "host": "mysql_container",
+        "host": "tvipdbp.thecamp.fr",
         "dialect": "mysql"
     }
 }

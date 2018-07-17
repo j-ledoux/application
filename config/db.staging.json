@@ -2,7 +2,7 @@
     "database": {
         "username": "*",
         "password": "*",
-        "database": "timeoff_test",
+        "database": "timeoff",
         "host": "tcdb.recette-thecamp.fr",
         "dialect": "mysql"
     }

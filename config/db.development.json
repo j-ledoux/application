@@ -1,9 +1,9 @@
 {
     "database": {
-        "username": "root",
-        "password": "root",
+        "username": "*",
+        "password": "*",
         "database": "timeoff",
-        "host": "mysql_container",
+        "host": "mariadb.thecamp.loc",
         "dialect": "mysql"
     }
 }
