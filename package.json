@@ -37,6 +37,7 @@
   },
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha --recursive t/*",
+    "test-ci": "node node_modules/mocha/bin/mocha --recursive t/*",
     "start": "node bin/wwww"
   }
 }
